@@ -14,6 +14,6 @@ echo -e 'deb http://kartolo.sby.datautama.net.id/debian/ buster main contrib non
 deb http://kartolo.sby.datautama.net.id/debian/ buster-updates main contrib non-free
 deb http://kartolo.sby.datautama.net.id/debian-security/ buster/updates main contrib non-free' > /etc/apt/sources.list
 fi
-apt-get update && apt-get upgrade
+apt-get update
 apt update -y && apt upgrade -y
 rm -rf /root/repoid
